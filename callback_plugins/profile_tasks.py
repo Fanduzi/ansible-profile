@@ -1,3 +1,8 @@
+# -*- coding: utf8 -*-
+import sys
+if sys.version < '3':
+    reload(sys)
+    sys.setdefaultencoding('utf8')
 import datetime
 import os
 import time
